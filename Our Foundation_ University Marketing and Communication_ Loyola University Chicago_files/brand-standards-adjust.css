@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 10px 10px 0px 20px !important;
+}
+
+.accordion-group {
+    margin-bottom: 8px;
+    padding: 0px;
+}
+
+.accordion-heading {
+    background-color: #C3C3C3;
+    padding-left: 0px !important; 
+}
+
+h6 {
+	font-size: .9em !important ;
+}
+
+#js-program-faq-parent .accordion-inner {
+    border-top: none;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: .9em;
+}
+
+#highlight-2 .accordion-heading {
+    margin-bottom: 8px;
+    padding: 0px;
+    margin-left: -19px;
+}
+
+#js-program-faq-parent .accordion-inner {
+    border-top: none;
+    border-bottom: none !important;
+}
+
+#js-program-faq-parent .accordion-heading {
+    background-color: #FFFFFF !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#js-program-faq-child .accordion-heading .accordion-toggle {
+    display: block;
+    padding: 0px 0px 0px 0px !important;
+}
+
+#js-program-faq-parent .accordion-heading .accordion-toggle {
+    display: block;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.rule {
+	border-left: 1px solid #cccccc;
+    padding: 0 2%;
+  }
+  
+  .accordion-banner-program {
+    float: left;
+    background-color: #fff;
+}
+
+a.link {
+    font-family: "Antenna Bold", sans-serif;
+	text-decoration: none !important;
+}
+
+h6 {
+    font-family: "Antenna Light", sans-serif !important;
+	
+}
+
+p a, article.content p a {
+    background-image: none;
+}
+
+.accordion-banner-program button.btn.cta.swivel-btn.right {
+    display: inline;
+    float: right;
+    margin-top: 0px;
+}

@@ -1,0 +1,669 @@
+/* NAME: interior-custom.css */
+/* LOCATION: https://luc.edu/media/home/stylesheets/ */
+
+/* === INTERIOR CUSTOM === */
+
+
+/* == GENERAL == */
+
+body { counter-reset: ordered-list-counter; }
+
+#page-nav {
+	margin-bottom: 0px; /* ORIGINALLY 30PX */
+}
+#page-nav ul {
+	padding: 25px;
+}
+#page-content article {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 30px;
+/*  width: 93.103%; */
+		width: 89.6%;
+}
+
+.span6#page-content article.content { width: 89.6% !important; }
+
+.span9#page-content article.content { width: 93.103% !important; }
+
+#page-content article.content article.mediaspotlight { padding: 0; width: 100%; }
+
+.alpha {
+	margin-left: 0;
+}
+.bold {
+	font-weight: bold !important;
+}
+.pattern-library-label {
+    margin: 50px 0 10px;
+    padding: 5px 0;
+    width: 100%;
+	font-size: 10px;
+	font-weight: normal;
+	letter-spacing: .5px;
+	color: #888888;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EEE;
+}
+
+#page-content article.content ul,
+#page-content article.content ol { min-width: 94%; }
+
+ul#flatnav { display:none; margin-bottom: 30px; }
+
+
+#page-nav h2 a {
+  display: block;
+  padding: 15px 20px 0px 25px;
+  font-style: normal;
+  color: #CDCEC9;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: 'Forza SSm 5r', 'Forza SSm A', 'Forza SSm B', 'museo-sans', 'Arial';
+  margin-bottom:-40px;
+}
+
+
+#page-nav h2 a:after {
+	border-bottom: 1px solid #5E5E5E;
+	content: "";
+	width: 100%;
+	display: inline-block;
+}
+
+/* == FOOTER == */
+/*
+footer #footer-links ul#main-nav.topmenugroup li:first-child {
+    padding-left: 0;
+}
+#footer-cta .visit {
+	margin: 0;
+}
+#footer-cta .gift {
+    margin-left: 10px;
+}
+*/
+
+/* === INTERIOR MODIFICATIONS === */
+
+/* == INLINE-BUTTON == */
+
+code {
+    background-color: #EEEEEE;
+    color: #680013;
+}
+
+/* == HR == */
+
+hr, form fieldset hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC -moz-use-text-color #FFFFFF;
+    border-image: none;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 20px 0;
+    opacity: 1;
+}
+
+form fieldset hr {
+	margin: 12px 0 20px;
+}
+
+/* == LISTS AND TABLES == */
+
+#page-content article.content ul {
+	margin: 0 0 30px 30px;
+}
+#page-content article.content ul ul {
+	margin: 0 0 0 30px;
+}
+#page-content article.content ol {
+	margin: 0 0 30px 40px;
+}
+#page-content article.content ul li {
+	font-family: "myriad-pro", sans-serif;
+	list-style-type: none;
+	list-style-image: url('li.png');
+}
+#page-content article.content ol li {
+	font-family: "myriad-pro", sans-serif;
+	letter-spacing: 0;
+}
+#page-content article.content table {
+	font-family: "myriad-pro", sans-serif;
+	letter-spacing: 0;
+	margin: 0 0 30px 0;
+}
+#page-content article.content ul li,
+#page-content article.content ol li,
+#page-content table th,
+#page-content table tr,
+#page-content table td,
+#page-content dl,
+#page-content dd {
+	font-size: 15px;
+	line-height: 1.25;
+	letter-spacing: 0;
+}
+#page-content article.content ul li ul {
+margin: 10px 0 20px 40px
+}
+ol li:before, #page-content article.content ol li:before {
+    counter-increment: ordered-list-counter;
+    content: counter(ordered-list-counter, decimal)"." !important;
+    margin-right: 5px;
+    font-weight: bold;
+		list-style-type: none;
+}
+ol li ul li:before, #page-content article.content ol li ul li:before {
+    counter-increment: none;
+    content: none !important;
+}
+#page-content table {
+	max-width: 99.85%;
+}
+#page-content table th,
+#page-content table tr,
+#page-content table td {
+/*	font-size: 13px; */
+	line-height: 1.35;
+	padding: 6px 10px;
+	border-left: 1px solid #CCCCCC;
+}
+#page-content table th {
+	border-top: 0 none;
+}
+#page-content table td {
+	border-left: 1px solid #CCCCCC;
+}
+#page-content table tr, #page-content table td:first-child, table {
+	border-left: 0 none;
+}
+#page-content table td:last-child, table {
+ 	border-right: 0 none;
+}
+tr:last-child {
+	border-bottom: 1px solid #CCCCCC !important;
+}
+.table-striped tbody > tr:nth-child(2n+1) > td {
+    background-color: #EEEEEE;
+}
+#page-content tr.footnote, #page-content tr.footnote td {
+	border-left: 0 none;
+	border-right: 0 none;
+	border-top: 1px solid #CCCCCC !important;
+	border-bottom: 0 none !important;
+	margin: 0;
+	padding: 10px 0 0 0;
+	font-size: 14px !important;
+}
+#page-content dd {
+	margin-left: 0;
+	font-size: 14px;
+}
+
+/* == INLINE-IMAGE CAPTION == */
+
+#page-content .caption-box {
+	float: none;
+	margin: -7px 0 25px;
+	padding: 15px;
+	width: 94.11764%;
+	background-color: #EEE;
+}
+#page-content .caption-box p {
+	margin: 0;
+	font-family: "myriad-pro", sans-serif;
+	font-size: 14px;
+	line-height: 1.45;
+	color: #272727;
+	opacity: 0.7;
+}
+
+/* == BLOCKQUOTE == */
+
+#page-content blockquote {
+	margin: 20px 0 20px 20px;
+	padding:0;
+	font-family: 'Forza SSm 5r', 'Forza SSm A', 'Forza SSm B', 'museo-sans', 'Arial';
+	font-size: 16px;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0;
+	color: #272727;
+	text-decoration: none;
+	border-left: 0 none;
+}
+#page-content .blockquote-citation {
+	margin: -10px 0 20px 20px;
+	padding: 0;
+	font-family: "myriad-pro", sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.35;
+	color: #272727;
+	text-align: left;
+}
+blockquote.student-quote {
+	margin: 10px 0 0 0;
+	padding:0;
+	font-family: 'Forza SSm 5r', 'Forza SSm A', 'Forza SSm B', 'museo-sans', 'Arial';
+	font-size: 16px;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 26px;
+	letter-spacing: 0;
+	color: #272727;
+	text-decoration: none;
+	border-left: 0 none;
+}
+
+/* == UTILITY == */
+
+#page-content article.content .info p {
+	font-size: 15px;
+	line-height: 1.35;
+}
+#page-content article.content .info p a {
+	font-weight: bold;
+}
+
+/* == INFOBOX == */
+
+#page-content article.content .infobox,
+#page-content article.content .infobox h4,
+#page-content article.content .infobox p,
+#page-content article.content .infobox p span {
+	float: none;
+}
+#page-content article.content .infobox p span {
+	line-height: 1.5;
+}
+
+/* == FORMS == */
+
+input { box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+
+input, textarea, .uneditable-input {
+    width: 98%;
+}
+.form-container {
+	width: 100%;
+}
+#page-content article.content .form-container form fieldset p {
+	float: left;
+	margin: 10px 0 5px !important;
+	padding: 0;
+	width: 100%;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+}
+#page-content article.content .form-container .form-group label {
+    display: block;
+    margin: 0 0 3px;
+    font-family: "myriad-pro",sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: none;
+}
+#page-content article.content textarea {
+	resize: none;
+	padding: 10px;
+	width: 96%;
+	height: 100px;
+	color: #272727;
+}
+#page-content article.content select {
+	height: 25px;
+	padding: 2px 3px 2px 5px;
+	outline: 0 none;
+}
+select:focus {
+	outline: 0 none;
+}
+
+/* == MEDIA LIST == */
+
+#page-content .module ul.media-list {
+	margin: 15px 0 0;
+	list-style: none;
+	list-style-image: none;
+}
+#page-content .module ul.media-list li.media {
+	list-style: none;
+	list-style-image: none;
+	margin-bottom: 0;
+}
+
+/* == FAQS == */
+
+#page-content article.content .faq-info a,
+#page-content article.content .course-info a {
+	color: #272727;
+}
+#page-content article.content .faq-info,
+#page-content article.content .course-info {
+	width: 100%;	
+}
+#page-content article.content .faq-info .accordion-group,
+#page-content article.content .course-info .accordion-group {
+	margin: 0 0 0 0;
+	font-weight: bold;
+	border: 0 none;
+	border-bottom: solid 1px #CCCCCC;
+	border-radius: 0;
+}
+#page-content article.content .faq-info .accordion-heading {
+	margin: 0;
+	background: none;
+}
+#page-content article.content .faq-info .accordion-inner p a,
+#page-content article.content .faq-info .accordion-inner a {
+	color: #680013;
+}
+#page-content article.content .faq-info .accordion-inner p,
+#page-content article.content .faq-info .accordion-inner {
+	font-family: "myriad-pro",sans-serif;    
+	font-size: 14px;
+}
+#page-content article.content .faq-info .accordion-inner p {
+	margin:0;
+}
+#page-content article.content .faq-info .accordion-inner {
+	margin:0 0 10px 0;
+}
+#page-content article.content .faq-info .accordion-inner,
+#page-content article.content .course-info .accordion-inner {
+	padding: 0 10px 9px 15px;
+	font-weight: normal;
+	line-height: 1.6;
+	border: 0 none;
+	background: #FFF;
+}
+#page-content article.content .faq-info .accordion-toggle,
+#page-content article.content .course-info .accordion-toggle {
+	display: table;
+    padding: 8px 15px;
+	width: 95%;
+}
+#page-content article.content .faq-info span,
+#page-content article.content .course-info span {
+	display: table-cell;
+	padding: 0;
+	vertical-align: middle;
+	align: right;
+}
+#page-content article.content .course-info .accordion-inner span {
+	float: left;
+	margin: 0 5px 0 0;
+	font-weight: bold;
+}
+
+/* == INSETS == */
+
+#page-content article.content #building-inset,
+#page-content article.content #feature-inset {
+	margin: 10px 20px 10px 0;
+	padding: 0;
+	float: left;
+	width: 30%;
+	background-color: #CCCCCC;
+}
+#page-content article.content #feature-inset img,
+#page-content article.content #building-inset img {
+    min-width: 100%;
+}
+#page-content article.content .inset-content,
+#page-content article.content .building-inset-content {
+	padding: 10px 15px 15px;
+}
+
+/* == YOUTUBE EMBED == */
+
+#page-content article.content .videoplayer {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+#page-content article.content .videoplayer iframe,
+#page-content article.content .videoplayer object#_player
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+#page-content article.content .videoplayer {
+	margin: 20px 0;
+}
+
+
+
+/*===============================================================
+MEDIA QUERIES
+===============================================================*/
+
+/* === 1024 === */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+#page-nav ul { padding: 15px; }
+
+#page-content article { padding: 20px; width: 91.5%; }
+
+.module, .module.events { padding: 15px; }
+
+#page-content .caption-box { width: 93%; }
+
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1024px) {
+
+a.logo img { margin: 20px 0 0 0 !important; width: 80% !important; min-width: 80% !important; }
+
+}
+
+/* === 768 === */
+
+@media only screen and (max-width: 768px) {
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11
+{ width: 100% }
+
+.offset1,
+.offset2,
+.offset3,
+.offset4,
+.offset5,
+.offset6,
+.offset7,
+.offset8,
+.offset9,
+.offset10,
+.offset11,
+.offset12
+{ margin-left: 0; }
+
+
+/* TABLET PORTRAIT OVERRIDES - FIXES */
+
+#header .span4 { width: 228px; }
+
+.module-pullquote .span4 { float:right; width: 330px;  }
+
+#global.span3, .royalSlider .span3 { width: 166px; }
+
+#global.offset5 { margin-left: 330px; }
+
+.module-pullquote.offset8 { margin-left: 516px; }
+
+#page-content .caption-box { width: 95.5%; }
+
+}
+
+/* === 736 === */
+
+@media only screen and (max-width: 736px) { #header .span4 { width: 60%; min-width: 60%; } }
+
+@media only screen and (max-device-width: 736px) and (min-device-width: 300px) { a.logo img { margin: 10px 0 10px 0 !important; width: 60% !important; min-width: 60% !important; } }
+
+
+/* === 767 === */
+
+@media only screen and (max-width: 767px) {
+
+/* TABLET PORTRAIT FIXES */
+
+#header .span4 { width: 100%; }
+
+.module-pullquote .span4 { float:right; width: 100%;  }
+
+#global.span3, .royalSlider .span3 { width: 100%; }
+
+#global.offset5 { margin-left: 0; }
+
+.module-pullquote.offset8 { margin-left: 0; }
+
+#page-content article { padding: 20px; width: 86%; }
+
+#page-content blockquote,
+#page-content .blockquote-citation,
+dl { margin-left: 0px; }
+
+#page-content article.content ul, ul { margin-left: 15px; }
+
+#page-content article.content ol, ol { margin-left: 20px; }
+
+#page-content .caption-box { width: 92.5%; }
+
+}
+
+
+/* === 568 === */
+
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+
+#page-nav ul {	padding: 20px; }
+
+#page-content article { padding: 20px; width: 89.5%;  }
+
+.module, .module.events { padding: 20px; }
+
+table.tabular { max-width: 100%; height: auto; overflow-y: hidden; }
+
+#page-content .caption-box { width: 93.5%; }
+
+}
+
+
+/* === 480 === */
+
+@media only screen and (max-width: 480px) {
+
+#page-content .caption-box { width: 92.5%; }
+
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+
+table.tabular { max-width: 100%; height: auto; overflow-x: hidden; }
+
+#page-content article.content #building-inset,
+#page-content article.content #feature-inset { width: 100%; margin: 10px 20px 20px 0; }
+
+#page-content article.content .faq-info .accordion-toggle,
+#page-content article.content .course-info .accordion-toggle { width: 90%; }
+
+#page-content .caption-box { width: 88%; }
+
+#page-content article.content input,
+#page-content article.content textarea,
+#page-content article.content .uneditable-input { width: 96%; }
+
+#page-content article.content textarea { width: 92%; }
+
+}
+
+/* JMD for program pages*/
+#page-content article.content .program-nav {
+    float: right;
+    margin: 20px 0 0;
+    padding: 0;
+    width: 200px;
+}
+#page-content article.content .program-nav ul {
+    background-color: #fff;
+    color: #272727;
+    float: right;
+    margin: 0 0 5px 0;
+    padding: 0;
+    text-decoration: none;
+    text-indent: 0;
+    width: 180px;
+}
+#page-content article.content .program-nav li a {
+    background-color: #cdcec9;
+    color: #272727;
+    display: block;
+    float: right;
+    font-family: 'museo-sans',sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    list-style-image:none;
+    list-style-type:none;
+    margin: 0 0 4px;
+    padding: 5px 0 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+#page-content article.content .program-nav li a:hover {
+    background-color: #eeb111;
+    transition: all 0.2s ease-in 0s;
+}
+#page-content article.content .program-nav li {
+    list-style-image: none;
+}
+
+/*fo |||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/*html.wf-museosans-n3-active.wf-museosans-n5-active.wf-museoslab-n5-active.wf-museoslab-n7-active.wf-minionpro-n4-active.wf-myriadpro-n7-active.wf-myriadpro-n4-active.wf-active body.subsite.backstretch div#page-content.fullbleed div#page.container div.row aside#page-media.span3 section.module.form form div div#recaptcha_widget_div.recaptcha_nothad_incorrect_sol.recaptcha_isnot_showing_audio div#recaptcha_area table#recaptcha_table.recaptchatable.recaptcha_theme_red tbody {
+	width:50% !important;	
+	max-width:50% !important;	
+}
+*/
+
+
+
+
+
+
+
+
+/*fo |||||||||||||||||||||||||||||||||||||||||||||||||||*/

@@ -1,0 +1,453 @@
+@charset "UTF-8";
+/* ---- ALIGNMENT AND SPACING --- asdfsdf*/
+/* CSS Document */
+
+.center {
+	display: block;
+	margin-left: auto;
+    margin-right: auto; 
+	width: 35%; 
+	margin-bottom: 20px;}
+	
+.center-2 {
+	display: block;
+	margin-left: auto;
+    margin-right: auto; 
+	width: 50%; 
+	margin-bottom: 20px;}
+
+.span25 {
+	width:23%;
+	overflow:hiden;
+    margin-left:none !important;
+}
+
+.ruleleft {
+    padding-left: 10px;
+	margin-left: 10px;
+	border-left: 1px solid #e5e5e5;
+}
+
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#highlight-4 p.intro { margin-bottom: 20px; }
+
+
+#js-program-faq-parent a.accordion-toggle {
+    color: #272727;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+#js-program-faq-parent .accordion-inner {
+	border-top: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.span50 { width:50%; }
+
+.inlne { display: inline; float: none; width: auto; }
+.inline-block { display: inline-block; float: left; margin-right: 20px !important; }
+
+.relative { position: relative; }
+.absolute { position: absolute; }
+
+.left { float: left !important;}
+.right { float: right; }
+
+.margin-0  { margin: 0px; }
+.margin-10 { margin: 10px; }
+.margin-20 { margin: 20px; }
+.margin-30 { margin: 30px; }
+
+.margin-left-m10 { margin-left: -10px; }
+.margin-left-m20 { margin-left: -20px; }
+.margin-left-m30 { margin-left: -30px; }
+
+.margin-left-10 { margin-left: 10px; }
+.margin-left-20 { margin-left: 20px; }
+.margin-left-30 { margin-left: 30px; }
+
+.margin-right-10 { margin-right: 10px; }
+.margin-right-20 { margin-right: 20px; }
+.margin-right-30 { margin-right: 30px; }
+
+.margin-top-m10 { margin-top: -10px; }
+.margin-top-m20 { margin-top: -20px; }
+.margin-top-m30 { margin-top: -30px; }
+
+.margin-top-00 { margin-top: 0px !important; }
+.margin-top-10 { margin-top: 10px; }
+.margin-top-20 { margin-top: 20px; }
+.margin-top-25 { margin-top: 25px; }
+.margin-top-30 { margin-top: 30px; }
+.margin-top-40 { margin-top: 40px; }
+.margin-top-50 { margin-top: 50px; }
+.margin-top-60 { margin-top: 60px; }
+
+.margin-bottom-00 { margin-bottom: 0px !important; }
+.margin-bottom-10 { margin-bottom: 10px; }
+.margin-bottom-20 { margin-bottom: 20px; }
+.margin-bottom-30 { margin-bottom: 30px; }
+.margin-bottom-40 { margin-bottom: 40px; }
+.margin-bottom-50 { margin-bottom: 50px; }
+.margin-bottom-60 { margin-bottom: 60px; }
+
+.padding-10 { padding: 10px; }
+.padding-20 { padding: 20px; }
+.padding-30 { padding: 30px; }
+
+.padding-left-10 { padding-left: 10px; }
+.padding-left-20 { padding-left: 20px; }
+.padding-left-30 { padding-left: 30px; }
+
+.padding-left-10 { padding-left: 10px; }
+.padding-left-20 { padding-left: 20px; }
+.padding-left-30 { padding-left: 30px; }
+
+.padding-left-m15 { padding-right: -15px; }
+
+
+.padding-top-30 { padding-top: 30px; }
+.padding-bottom-30 { padding-bottom: 30px; }
+
+.three-column-even { float: left; margin-left: 30px; width: 26%; }
+
+.three-column-even-adjusted { margin: 0px; width: 29.75%; }
+
+
+
+/* ---- RULES ---- */
+
+.separator {
+	margin-top: 20px;
+	padding-top: 30px;
+	border-top: solid 1px #CCC;
+}
+
+
+/* ---- GENERAL TYPOGRAPHY --- */
+
+h1.antenna {
+	font-family: 'antenna bold', san serif;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	text-transform: uppercase;
+	padding: none;
+}
+
+h2.antenna {
+	font-family: 'antenna bold', san serif;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+h3.antenna {
+	font-family: 'antenna black', san serif;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+h4.antenna {
+	font-family: 'antenna black', san serif;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	text-transform: uppercase;
+
+}
+
+h4.white {
+	font-family: 'antenna black', san serif;
+	color:white;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	text-transform: uppercase;
+
+}
+
+
+a.link {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	text-transform: uppercase;
+	text-decoration: none !important;
+	color:#922247;
+}
+
+a.antennablack {
+	font-family: 'Antenna Black', serif;
+	font-size:130%;
+	font-weight:600;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	text-transform: uppercase;
+	text-decoration: none !important;
+	color: #272727;
+}
+
+a.diy-callout {
+	font-family: 'Antenna Black', serif;
+	color:#680013;
+	text-decoration:none;
+}
+
+.read {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	color:#272727;
+	font-weight:550;
+	text-transform: uppercase;
+}
+
+
+ul.color {margin:0 !important;
+}
+
+
+li.color {list-style:none !important;
+}
+
+li.antenna {
+	font-family: 'antenna', san serif !important;
+	font-weight:600;
+	letter-spacing: 0.05em;
+	word-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+p.sans {
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+
+.caps{
+	text-transform: uppercase;
+	weight:bold;
+}
+
+
+/*---- A TAG
+
+a:link {
+color: #FFF;
+text-decoration: none;
+}
+a:visited {
+color: #FFF;
+text-decoration: none;
+}
+a:hover {
+color: #CCCCCC;
+text-decoration: none;
+}
+a:active {
+color: #FFF;
+text-decoration: none;
+}
+----*/
+
+/*---- FAQ ACCORDIAN ----*/
+
+.icon {
+	background-image: url(../img/down_icon-a.png) !important;
+	background-position: 0px, 0px !important;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 1px;
+    vertical-align: text-top;
+    width: 14px;
+}
+
+.icon-chevron-right {
+    background-position: -457px -72px;
+}
+
+
+
+/* ---- Color palette--- */
+
+.maroon { 
+
+		float:left;
+		background-color:#922247;
+		width: 20em;
+		height: 20em;
+}
+
+
+.gold { 
+
+		float:left;
+		background-color:#febd18;
+		width: 20em;
+		height: 20em;	
+}
+
+.gray { 
+
+		float:left;
+		background-color:#959595;
+		width: 12em;
+		height: 12em;	
+}
+
+.patina { 
+
+		float:left;
+		background-color:#0096A0;
+		width: 12em;
+		height: 12em;
+}
+
+.sand { 
+
+		float:left;
+		background-color:#AA8761;
+		width: 12em;
+		height: 12em;
+}
+
+.lake { 
+
+		float:left;
+		background-color:#056FA9;
+		width: 12em;
+		height: 12em;	
+}
+
+.white {color:white;}
+
+
+/* ACCORDIONS */
+
+#content-tabs {
+	font-family: "antenna" !important;
+	
+}
+
+.accordion-fix {
+    display: block;
+    padding: 8px 0px !important;
+}
+
+.accordion-close {
+	margin: 20px 0 0 0;
+	font-family: "antenna", sans-serif;
+    font-size: 85%;
+    font-weight: 700;
+    color: #680013;
+    text-decoration: none !important;
+    text-transform: uppercase;
+	text-align: right;
+}
+
+
+.accordion-inner a span.readmore, a.readmore {
+	display: inline;
+    margin: 0;
+	font-family: "antenna", sans-serif;
+    font-size: 80%;
+    font-weight: 700;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+.accordion.accordion-banner-program { margin-bottom: 10px; }
+
+.accordion-banner-program { float: left; background-color: #ccc; }
+
+.accordion-banner-program .accordion-group { margin-bottom: 0; }
+
+.accordion-banner-program button.btn.cta.swivel-btn.right { display: inline; float: right; margin-top: 8px; }
+
+.accordion-banner-program span {
+    margin: 0 15px 0 0;
+    padding: 2px 8px;
+	font-family: "antenna", sans-serif;
+	font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+	text-transform: uppercase;
+	border-radius: 3px;
+	background-color: #888;
+}
+
+.accordion-banner-program h4 { display: inline-block; width: 80%; font-size: 18px; }
+
+
+
+/* ACCORDION PROGRAM INFORMATION */
+
+.accordion-banner-program .accordion-banner-program-information { background-color: #ffffff; }
+
+.accordion-banner-program-information h2, #page-content article.content .accordion-banner-program-information h2 { padding: 10px 0 0 0; font-size: 18px; font-style: normal; font-weight: 700; color: #ccc; text-transform: none; }
+
+#js-program-faq-parent.accordion { margin-top: 10px; margin-bottom: 0; }
+
+#js-program-faq-parent a.accordion-toggle { padding: 0px ; color: #272727; font-weight: bold; text-transform: uppercase; }
+
+#js-program-faq-parent a.accordion-toggle .accordion-heading span.light { padding: 8px 0; color: #272727; font-weight: regular; text-transform: none; }
+
+#js-program-faq-parent .accordion-banner-program-information a.accordion-toggle { text-transform: none; }
+
+
+.accordion-banner-program-information h4 { font-size: 18px; font-style: normal; font-weight: 700; color: #272727; text-transform: none; }
+
+.accordion-banner-program-information a.accordion-toggle { color: #272727; }
+
+.accordion-banner-program-information .accordion-heading a.accordion-toggle { padding: 0px; }
+
+.accordion-banner-program-information .accordion-heading { font-weight: bold; border-bottom: 1px solid #ccc; }
+
+.accordion-banner-program-information .accordion-heading span.light {
+	padding-left: 0;
+	font-size: 14px;
+	font-weight: 100;
+	color: #272727;
+	text-transform: none;
+	background: none;
+}
+
+.accordion-banner-program-information .accordion-inner { border-top: 0 none; }
+
+
+.accordion-heading .accordion-toggle {
+    display: block;
+}
+
+#highlight-2 .accordion-heading {
+    background-color: #fff !important;
+}
+
+/* HEADLINE HIDE */
+
+h1.albumtitle {display:none;}
+
+
+/* SPACER */
+
+.spacer.whitespace {
+display:inline !important;
+margin-top:25px;
+}
+
+.accordion-heading {background-color: #C3C3C3;
+padding-left:10px;
+padding-right:10px;}
+
+#js-program-faq-child {
+background-color: #fff !important;
+}
+
+html.wf-museosans-n3-active.wf-museosans-n5-active.wf-museoslab-n5-active.wf-museoslab-n7-active.wf-minionpro-n4-active.wf-myriadpro-n7-active.wf-myriadpro-n4-active.wf-active body.subsite.backstretch div#page-content.fullbleed div#page.container div.row div#page-content.span9 article.content.bg-white section#content-specific-tabs.width-100.left div#content-tabs div#content div#my-tab-content.tab-content div#highlight-1.span8.alpha.tab-pane.active div.accordian-container.left.margin-top-20 div#lockup-1.span8.accordion.accordion-banner-program.alpha div.accordion-group div#introMenuCollapse3.accordion-body.collapse.in div.accordion-inner.accordion-banner-program-information div.row div.span3.logo { width: 260px !important;}
+
+
+

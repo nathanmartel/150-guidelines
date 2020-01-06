@@ -1,0 +1,93 @@
+/* 150-adjust.css */
+/* January 2020 */
+
+/* EXISTING STYLE OVERRIDES */
+
+h5.label { margin-top: 30px; }
+
+h5 { margin-top: 20px; }
+
+#page-content article.content #content-tabs #my-tab-content ul { margin-left: 15px !important; }
+
+.image h5.label.display { margin-top: 10px; }
+
+/* CTA links were turning white on visit. Perhaps I've misused the class? */
+p a.cta:hover, p a.cta:visited { color: #922247; background-color: transparent;}
+
+/* NEW 150-SPECIFIC STYLES */
+
+/* Add Flexbox support */
+.row.display-flex, .row.display-flex-horiz {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+.row.display-flex-horiz > [class*='col-'] {
+    display: flex;
+    flex-direction: row;
+}
+
+#page-content article.content h4+ul {
+    margin-top: 0;
+}
+
+.logo-tile {
+    box-sizing: border-box;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.logo-tile-small {
+    box-sizing: border-box;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+li.antenna-bold {
+    font-family: 'Antenna Bold', sans-serif !important;
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+#page-content article.content ul li,
+#page-content article.content ol li {
+        list-style-position: outside;
+}
+
+.color-palette-tile {
+    float:left;
+    width: 12em;
+    height: 12em;	
+}
+
+.typography-headline {
+    font-family: "Antenna Black", sans-serif;
+    font-size: 40px;
+}
+
+.typography-body {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 24px;
+}
+
+.typography-cta {
+    font-family: "Antenna Bold", sans-serif;
+    font-size: 40px;
+}
+
+.typography-sample-box {
+    margin: 10px 0;
+    padding: 20px 20px 10px 20px;
+    background-color: #efefef;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.typography-sample-box p {
+    display: inline-block;
+    line-height: 1.1em;
+}
