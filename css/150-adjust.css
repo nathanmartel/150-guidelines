@@ -59,30 +59,55 @@ li.antenna-bold {
 }
 
 .color-palette-tile {
-    float:left;
-    width: 12em;
-    height: 12em;	
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative;	/* To put text inside */
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+    .color-palette-tile { 
+        width: 300px;
+        padding-top: 300px;
+    }
+    }
+    
+@media (min-width: 1200px) {
+    .color-palette-tile { margin-top: 0px; }
+    }
+
+
+.color-palette-tile-content {
+    color: white;
+    padding: 10px 0px 0 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .typography-headline {
     font-family: "Antenna Black", sans-serif;
-    font-size: 40px;
+    font-size: 48px;
+    text-transform: uppercase;
 }
 
 .typography-body {
     font-family: "Myriad Pro", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .typography-cta {
     font-family: "Antenna Bold", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .typography-sample-box {
-    margin: 10px 0;
-    padding: 20px 20px 10px 20px;
-    background-color: #efefef;
+    margin: 20px 0;
+    padding: 10px 20px 5px 20px;
+    border-left: 5px solid #efefef;
     box-sizing: border-box;
     display: inline-block;
 }
